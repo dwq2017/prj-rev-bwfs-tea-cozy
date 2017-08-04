@@ -1,0 +1,94 @@
+body { font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        opacity: 0.9;
+        text-align: center;
+}
+#top {display: flex;
+      justify-content: space-between;
+      margin: 0px;
+      border-bottom: 1px solid seashell;
+}
+#logo {height: 50px;
+        padding-left: 10px;
+}
+.navheader {display: inline-block;
+            color: seashell;
+            align-items: center;
+            padding-top: 10px;
+            justify-content: space-between;
+}
+nav span {padding: 20px;
+          text-decoration: underline;
+}
+.banner {display: block;
+          height: 700px;
+          width: 100%;
+          background-image: url("../images/mission-background.jpg");
+          background-size: cover;
+          border: 0;
+          margin: 0;
+          justify-content:space-around;
+          padding-top: 400px;
+}
+.mission {display: block;
+          border: 0;
+          margin: 0;
+}
+.missiontitle {display: inline-block;
+                align-items: center;
+                border: 0px;
+                margin: 0px;
+                background-color: black;
+                width: 100%;
+}
+.teatitle {display: inline-block;
+            align-items: center;
+            border: 0px;
+            margin: 0px;
+            background-color: black;
+            width: 100%;
+}
+.tea {display: flex;
+      width: 1000px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 200px;
+}
+.tea img {height: 200px;
+          width: 300px;
+          flex-wrap: wrap;
+}
+.tea h4 {border: 0;
+          text-align: center;
+}
+.location {display: flex;
+            border: 0;
+            flex-flow: wrap;
+            justify-content: space-around;
+            height: 500px;
+            background-image: url("../images/locations.jpg");
+}
+.locationtitle {border: 0;
+                margin: 0;
+                padding-left: 50%;
+                padding-right: 50%;
+}
+#downtown, #bayside, #oakdale {display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 0;
+            background-color: black;
+            text-align: center;
+            padding: 15px 20px;
+}
+.location h4, h3 {align-items: center;
+}
+.contact {height: 200px;}
+.cright {padding-left: 20px;
+          text-align: left;
+}
